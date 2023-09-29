@@ -1,0 +1,9 @@
+.active {
+    color: #000;
+    font-weight: bold;
+}
+
+.active_mobile {
+    color: #fff;
+    font-weight: bold;
+}
