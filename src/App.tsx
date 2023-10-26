@@ -9,7 +9,7 @@ function App() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (window.location.pathname === '/m-test/') {
+    if (window.location.pathname === '/') {
       navigate('/contact');
     }
   }, [navigate]);
