@@ -1,10 +1,18 @@
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, useNavigate } from 'react-router-dom'
 import './App.css'
 import ContactUs from './components/ContactUs/ContactUs'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
+import { useEffect } from 'react'
 
 function App() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (window.location.pathname === '/m-test/') {
+      navigate('/contact');
+    }
+  }, [navigate]);
 
   return (
     <>

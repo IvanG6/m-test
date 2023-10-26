@@ -23,7 +23,7 @@ function Header() {
           <li  className={cn("text-sm text-gray-950 hover:text-black hover:font-semibold", { active: location.pathname === '/features' })}>
             <Link to='/features'>Features</Link>
           </li>
-          <li  className={cn("text-sm text-gray-950 hover:text-black hover:font-semibold", { active: location.pathname === '/blog' })}>
+          <li  className={cn("text-sm text-gray-950 hover:text-black hover:font-semibold", { active: location.pathname === '/blogs' })}>
             <Link to='/blogs'>Blog</Link>
           </li>
           <li  className={cn("text-sm text-gray-950 hover:text-black hover:font-semibold", { active: location.pathname === '/shop' })}>
